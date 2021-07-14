@@ -1,0 +1,12 @@
+{
+  "name": "fe-code-specification",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^7.0.1"
+  }
+}

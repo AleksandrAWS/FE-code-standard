@@ -1,0 +1,26 @@
+{
+  "name": "@provincial-platform/eslint-config-vue3-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "",
+    "directory": ""
+  },
+  "keywords": [
+    "eslint",
+    "vue3",
+    "javascript"
+  ],
+  "author": "MAXLZ1",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-plugin-vue": "^7.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-plugin-vue": "^7.11.1"
+  }
+}

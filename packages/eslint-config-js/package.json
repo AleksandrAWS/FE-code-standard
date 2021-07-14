@@ -1,0 +1,28 @@
+{
+  "name": "@provincial-platform/eslint-config-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "",
+    "directory": ""
+  },
+  "keywords": [
+    "eslint",
+    "javascript"
+  ],
+  "author": "MAXLZ1",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "peerDependencies": {
+    "eslint": "^7.29.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "jest": "^27.0.6"
+  }
+}
