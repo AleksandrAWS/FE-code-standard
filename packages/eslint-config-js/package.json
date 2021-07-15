@@ -1,12 +1,11 @@
 {
   "name": "@provincial-platform/eslint-config-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "@provincial-platform/eslint-config-js",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "",
-    "directory": ""
+    "url": "https://github.com/MAXLZ1/FE-code-standard/tree/main/packages/eslint-config-js"
   },
   "keywords": [
     "eslint",
