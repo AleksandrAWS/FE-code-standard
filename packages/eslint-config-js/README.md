@@ -1,9 +1,8 @@
 # @provincial-platform/eslint-config-js
-***
+
 ![eslint](https://img.shields.io/badge/eslint-v7.29.0-blue)
 
 ## 使用
-***
 
 ### 安装
 ```shell
@@ -41,7 +40,6 @@ module.exports = {
 ```
 
 ## 说明
-***
 
 > `@provincial-platform/eslint-config-js`几乎包含了Eslint的所有规范。其主要分为以下几个包：
 
