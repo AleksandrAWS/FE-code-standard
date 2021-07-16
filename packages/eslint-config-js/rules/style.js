@@ -10,7 +10,7 @@ module.exports = {
     }],
     'array-element-newline': [2, {
       multiline: true,
-      minItems: 5
+      minItems: 3
     }],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],
