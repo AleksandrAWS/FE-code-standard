@@ -51,10 +51,8 @@ module.exports = {
     }],
     'vue/no-template-target-blank': 0,
     'vue/no-this-in-before-route-enter': 2,
-    'vue/no-unregistered-components': [2, {
-      ignorePatterns: []
-    }],
-    // TODO
+    // 无法检测全局组件及mixins混入的组件
+    'vue/no-unregistered-components': 0,
     'vue/no-unsupported-features': 0,
     'vue/no-unused-properties': [2, {
       groups: ['props', 'data', 'computed', 'methods', 'setup'],

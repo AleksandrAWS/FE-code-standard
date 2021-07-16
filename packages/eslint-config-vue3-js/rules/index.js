@@ -7,9 +7,8 @@ module.exports = {
     browser: true,
     es6: true
   },
-  plugins: ['vue'],
   extends: [
-    'plugin:vue/vue3-strongly-recommended',
+    'plugin:vue/vue3-recommended',
     './vue3-strongly-recommended',
     './vue3-recommended',
     './uncategorized',

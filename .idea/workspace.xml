@@ -1,29 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5994e541-649e-429b-9c93-fb2d6ae22925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/FE-code-standard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-js/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-js/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-js/tests/index.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-js/tests/index.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="5994e541-649e-429b-9c93-fb2d6ae22925" name="Default Changelist" comment="fix(eslint-config-js): array-element-newline最小项的数量由5改为3">
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/extension/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/extension/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/uncategorized/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/vue3-recommended/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/vue3-strongly-recommended/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/index.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-js/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-js/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/best-practices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/es6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/possible-errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/strict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/variables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/extension.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/extension.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/uncategorized.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/uncategorized.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/vue3-recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue3-recommended.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/vue3-strongly-recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue3-strongly-recommended.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue3 Component" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
   </component>
   <component name="ProjectId" id="1vJLZSZ7rSXFYWfnUV5zsGJ65Vx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,19 +64,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/eslint-config-js/tests/fixtures/possible-errors" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/eslint-config-js/tests/fixtures/possible-errors" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3-js" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="npm.test (1)">
     <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -70,6 +104,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/eslint-config-vue3-js/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/packages/eslint-config-js/package.json" />
       <command value="run" />
@@ -82,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test (1)" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.prepare" />
@@ -100,7 +145,9 @@
       <option name="presentableId" value="Default" />
       <updated>1626275302207</updated>
       <workItem from="1626275305188" duration="27000" />
-      <workItem from="1626275335892" duration="2618000" />
+      <workItem from="1626275335892" duration="26860000" />
+      <workItem from="1626417719475" duration="5766000" />
+      <workItem from="1626426120790" duration="8939000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1626275593142</created>
@@ -109,7 +156,42 @@
       <option name="project" value="LOCAL" />
       <updated>1626275593142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore: 添加husky+commitlint">
+      <created>1626311617417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626311617417</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docs: 添加README及CHANGELOG">
+      <created>1626328053328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626328053328</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docs: 修改README及CHANGELOG">
+      <created>1626328209202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626328209202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix(eslint-config-js): array-element-newline最小项的数量由5改为3">
+      <created>1626422249453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626422249453</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix(eslint-config-js): object-curly-newline最小项的数量由4改为2">
+      <created>1626451738458</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626451738458</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,10 +219,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="添加husky+commitlint" />
+    <MESSAGE value="chore: 添加husky+commitlint" />
+    <MESSAGE value="docs: 添加README及CHANGELOG" />
+    <MESSAGE value="docs: 修改README及CHANGELOG" />
+    <MESSAGE value="fix(eslint-config-js): array-element-newline最小项的数量由5改为3" />
+    <MESSAGE value="fix(eslint-config-js): object-curly-newline最小项的数量由4改为2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(eslint-config-js): object-curly-newline最小项的数量由4改为2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
