@@ -1,5 +1,4 @@
 module.exports = {
-  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module'
@@ -15,6 +14,5 @@ module.exports = {
     './uncategorized',
     './extension'
   ],
-  rules: {},
-  overrides: []
+  rules: {}
 }

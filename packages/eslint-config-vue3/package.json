@@ -1,6 +1,6 @@
 {
   "name": "@provincial-platform/eslint-config-vue3",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Provincial platform eslint config for vue3",
   "main": "index.js",
   "repository": {
@@ -20,7 +20,8 @@
     "test-coverage": "jest --coverage"
   },
   "peerDependencies": {
-    "eslint": "^7.29.0"
+    "eslint": "^7.29.0",
+    "eslint-plugin-vue": "^7.13.0"
   },
   "devDependencies": {
     "eslint": "^7.29.0",

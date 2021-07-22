@@ -41,10 +41,10 @@ module.exports = {
       after: true
     }],
     'vue/max-len': [2, {
-      code: 80,
-      template: 80,
+      code: 100,
+      template: 100,
       tabWidth: 2,
-      comments: 80,
+      comments: 100,
       ignorePattern: '',
       ignoreComments: false,
       ignoreTrailingComments: false,
@@ -69,10 +69,10 @@ module.exports = {
     'vue/no-sparse-arrays': 2,
     'vue/no-useless-concat': 2,
     'vue/object-curly-newline':[2, {
-      ObjectExpression: { minProperties: 2, multiline: true, consistent: true },
-      ObjectPattern: { minProperties: 2, multiline: true, consistent: true },
-      ImportDeclaration: { minProperties: 2, multiline: true, consistent: true },
-      ExportDeclaration: { minProperties: 2, multiline: true, consistent: true },
+      ObjectExpression: { minProperties: 3, multiline: true, consistent: true },
+      ObjectPattern: { minProperties: 3, multiline: true, consistent: true },
+      ImportDeclaration: { minProperties: 3, multiline: true, consistent: true },
+      ExportDeclaration: { minProperties: 3, multiline: true, consistent: true },
     }],
     'vue/object-curly-spacing': [2, 'always'],
     'vue/object-property-newline': [2, {
