@@ -8,7 +8,7 @@ module.exports = {
       objectsInArrays: false,
       arraysInArrays: false
     }],
-    'array-element-newline': [2, {
+    'array-element-newline': [0, {
       multiline: true,
       minItems: 3
     }],
@@ -97,7 +97,7 @@ module.exports = {
     }],
     'max-depth': [1, 4],
     'max-len': [2, {
-      code: 80,
+      code: 100,
       tabWidth: 2,
       ignorePattern: '',
       ignoreComments: false,
