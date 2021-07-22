@@ -9,7 +9,7 @@ module.exports = {
     ],
     'type-case': [2, 'always', 'lower-case'],
     'type-empty': [2, 'never'],
-    'subject-max-length': [2, 'always', 40]
+    'subject-max-length': [2, 'always', 60]
   },
 }
 
