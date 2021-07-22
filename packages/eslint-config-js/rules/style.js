@@ -108,7 +108,7 @@ module.exports = {
       ignoreRegExpLiterals: false
     }],
     'max-lines': [1, {
-      max: 300,
+      max: 600,
       skipBlankLines: true,
       skipComments: true
     }],
