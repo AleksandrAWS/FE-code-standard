@@ -5,7 +5,6 @@ function lintProject(name) {
   const eslint = new CLIEngine({
     baseConfig: {
       extends: [
-        '@provincial-platform/eslint-config-js',
         'plugin:vue/vue3-recommended'
       ]
     },
@@ -57,10 +56,4 @@ test('extension rules should pass validate',  () => {
   expect(lintRes).toContain('vue/max-len')
   expect(lintRes).toContain('vue/object-curly-spacing')
   expect(lintRes).toContain('vue/object-curly-newline')
-  expect(lintRes).toContain('eqeqeq')
-  expect(lintRes).toContain('key-spacing')
-  expect(lintRes).toContain('keyword-spacing')
-  // validate jsx
-  expect(lintRes).toContain('no-multi-spaces')
-  expect(lintRes).toContain('no-multi-str')
 })

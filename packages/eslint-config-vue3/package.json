@@ -1,0 +1,32 @@
+{
+  "name": "@provincial-platform/eslint-config-vue3",
+  "version": "0.1.0",
+  "description": "Provincial platform eslint config for vue3",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MAXLZ1/FE-code-standard/tree/main/packages/eslint-config-vue3"
+  },
+  "keywords": [
+    "provincial-platform",
+    "eslint",
+    "vue3",
+    "config"
+  ],
+  "author": "MAXLZ1",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "peerDependencies": {
+    "eslint": "^7.29.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^7.13.0"
+  }
+}
