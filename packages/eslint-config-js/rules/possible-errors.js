@@ -14,6 +14,7 @@ module.exports = {
       returnAssign: false,
       ignoreJSX: 'all'
     }],
+    'no-loss-of-precision': 2,
     'no-irregular-whitespace': 2,
     'no-template-curly-in-string': 1,
   }
