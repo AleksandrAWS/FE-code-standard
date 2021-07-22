@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     '@provincial-platform/eslint-config-js',
-    './rules',
+    '@provincial-platform/eslint-config-vue3',
   ],
   rules: {}
 }

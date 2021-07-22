@@ -309,10 +309,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@eslint/eslintrc@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.nlark.com/@eslint/eslintrc/download/@eslint/eslintrc-0.4.2.tgz#f63d0ef06f5c0c57d76c4ab5f63d3835c51b0179"
-  integrity sha1-9j0O8G9cDFfXbEq19j04NcUbAXk=
+"@eslint/eslintrc@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
+  integrity sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==
   dependencies:
     ajv "^6.12.4"
     debug "^4.1.1"
@@ -523,10 +523,17 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@provincial-platform/eslint-config-js@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.nlark.com/@provincial-platform/eslint-config-js/download/@provincial-platform/eslint-config-js-0.1.0.tgz#35e4012ee0362767c0261209c061aab8145c2679"
-  integrity sha1-NeQBLuA2J2fAJhIJwGGquBRcJnk=
+"@provincial-platform/eslint-config-js@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/@provincial-platform/eslint-config-js/-/eslint-config-js-0.1.2.tgz#1b23d449a1f343f0076409c08b9b43483105ff75"
+  integrity sha512-rCn21jIy16v7vpCkeIPo3+LA8u7me8pAQEpgmgNztbsuHcATumLYmQxpmBKjfGsPx41HH7hSNgpNpuQLdk086w==
+
+"@provincial-platform/eslint-config-vue3@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/@provincial-platform/eslint-config-vue3/-/eslint-config-vue3-0.1.2.tgz#9def4b54c02570835d2d3d620428c8b4e3b63f3c"
+  integrity sha512-hSdZXpjmli4mZMBBON3i8qyiuso8veVKFf5xTsPSaAdPfJBkVFU4nzdaXHvrSql+pPv9fn00eKGpjWFafdYfng==
+  dependencies:
+    eslint-plugin-vue "^7.13.0"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
@@ -1174,13 +1181,13 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.nlark.com/eslint-visitor-keys/download/eslint-visitor-keys-2.1.0.tgz?cache=0&sync_timestamp=1620088752356&other_urls=https%3A%2F%2Fregistry.nlark.com%2Feslint-visitor-keys%2Fdownload%2Feslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha1-9lMoJZMFknOSyTjtROsKXJsr0wM=
 
-eslint@^7.29.0:
-  version "7.30.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-7.30.0.tgz#6d34ab51aaa56112fd97166226c9a97f505474f8"
-  integrity sha512-VLqz80i3as3NdloY44BQSJpFw534L9Oh+6zJOUaViV4JPd+DaHwutqP7tcpkW3YiXbK6s05RZl7yl7cQn+lijg==
+eslint@^7.31.0:
+  version "7.31.0"
+  resolved "https://registry.npmjs.org/eslint/-/eslint-7.31.0.tgz#f972b539424bf2604907a970860732c5d99d3aca"
+  integrity sha512-vafgJpSh2ia8tnTkNUkwxGmnumgckLh5aAbLa1xRmIn9+owi8qBNGKL+B881kNKNTy7FFqTEkpNkUvmw0n6PkA==
   dependencies:
     "@babel/code-frame" "7.12.11"
-    "@eslint/eslintrc" "^0.4.2"
+    "@eslint/eslintrc" "^0.4.3"
     "@humanwhocodes/config-array" "^0.5.0"
     ajv "^6.10.0"
     chalk "^4.0.0"

@@ -24,11 +24,11 @@
     "eslint": "^7.29.0"
   },
   "devDependencies": {
-    "eslint": "^7.29.0",
+    "eslint": "^7.31.0",
     "jest": "^27.0.6"
   },
   "dependencies": {
-    "@provincial-platform/eslint-config-js": "^0.1.0",
-    "eslint-plugin-vue": "^7.13.0"
+    "@provincial-platform/eslint-config-js": "^0.1.2",
+    "@provincial-platform/eslint-config-vue3": "^0.1.2"
   }
 }
