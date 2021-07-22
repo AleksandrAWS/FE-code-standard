@@ -1,5 +1,10 @@
 # 更新日志
 
+## 0.1.2
+`2021-07-22`
+- 关闭规则：`best-practices.js/no-magic-numbers`、`style.js/array-element-newline`
+- `style.js/max-len`：`code`由80增加至100
+
 ## 0.1.1
 `2021-07-22`
 - `style.js/array-element-newline`：`minItems`由5改为3
