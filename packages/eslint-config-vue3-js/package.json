@@ -1,6 +1,6 @@
 {
   "name": "@provincial-platform/eslint-config-vue3-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provincial platform eslint config for vue3(javascript)",
   "main": "index.js",
   "repository": {
