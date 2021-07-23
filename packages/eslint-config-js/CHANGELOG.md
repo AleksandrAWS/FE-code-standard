@@ -1,5 +1,9 @@
 # 更新日志
 
+## 0.1.3
+`2021-07-23`
+- `style.js/object-curly-newline`：`minProperties`由2改为3
+
 ## 0.1.2
 `2021-07-22`
 - 关闭规则：`best-practices.js/no-magic-numbers`、`style.js/array-element-newline`
