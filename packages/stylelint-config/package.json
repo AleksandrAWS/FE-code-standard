@@ -1,0 +1,26 @@
+{
+  "name": "@provincial-platform/stylelint-config",
+  "version": "0.1.0",
+  "description": "Provincial platform stylelint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MAXLZ1/FE-code-standard/tree/main/packages/stylelint-config"
+  },
+  "keywords": [
+    "provincial-platform",
+    "stylelint",
+    "css",
+    "stylelint-config",
+    "config"
+  ],
+  "author": "MAXLZ1",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^13.13.1"
+  },
+  "dependencies": {
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^4.1.0"
+  }
+}
