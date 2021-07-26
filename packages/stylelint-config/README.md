@@ -27,7 +27,6 @@ npm install stylelint @provincial-platform/stylelint-config --save-dev
 
 
 ### 配置
-> 如果你使用的是`.eslintrc.js`文件，请在`.eslintignore`添加`.eslintrc.js`
 
 .stylelintrc
 ```text
