@@ -60,7 +60,10 @@ module.exports = {
       allowConciseArrowFunctionExpressionsStartingWithVoid: false,
     }],
     '@typescript-eslint/explicit-member-accessibility': ['error', {
-      accessibility: 'explicit'
+      accessibility: 'explicit',
+      overrides: {
+        constructors: 'off'
+      }
     }],
     '@typescript-eslint/explicit-module-boundary-types': ['error', {
       allowArgumentsExplicitlyTypedAsAny: false,
@@ -214,7 +217,7 @@ module.exports = {
     '@typescript-eslint/no-this-alias': 'error',
     'no-throw-literal': 'off',
     '@typescript-eslint/no-throw-literal': 'error',
-    '@typescript-eslint/no-type-alias': 'error',
+    '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
@@ -227,7 +230,7 @@ module.exports = {
     '@typescript-eslint/no-unsafe-member-access': 'error',
     '@typescript-eslint/no-unsafe-return': 'error',
     'no-unused-expressions': 'off',
-    '@typescript-eslint/no-unused-expressions': 'error',
+    '@typescript-eslint/no-unused-expressions': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     'no-use-before-define': 'off',
@@ -249,7 +252,7 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
-    '@typescript-eslint/prefer-readonly-parameter-types': 'error',
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
@@ -280,7 +283,7 @@ module.exports = {
     }],
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'error',
-    '@typescript-eslint/strict-boolean-expressions': 'error',
+    '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/triple-slash-reference': ['error', {
       lib: 'always',
