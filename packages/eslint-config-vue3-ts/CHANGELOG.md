@@ -1,6 +1,10 @@
 # 更新日志
 
 
+## 0.2.0
+`2021-07-30`
+- 新增`@provincial-platform/eslint-config-js`规则
+
 ## 0.1.1
 `2021-07-30`
 - `@typescript-eslint/naming-convention`规则`objectLiteralProperty`允许`snake_case`命名风格
