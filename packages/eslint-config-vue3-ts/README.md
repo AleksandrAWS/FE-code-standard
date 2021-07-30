@@ -1,13 +1,16 @@
 # @provincial-platform/eslint-config-vue3-ts
 
 ![eslint](https://img.shields.io/badge/eslint-v7.29.0-blue)
-![@provincial-platform/eslint-config-ts](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--ts-v0.1.0-blue)
-![@provincial-platform/eslint-config-vue3](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--vue3-v0.1.0-blue)
+![@provincial-platform/eslint-config-js](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--js-v0.1.3-blue)
+![@provincial-platform/eslint-config-ts](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--ts-v0.1.1-blue)
+![@provincial-platform/eslint-config-vue3](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--vue3-v0.1.2-blue)
 
 
 ## 说明
 
-> `@provincial-platform/eslint-config-vue3-ts`包含了`@provincial-platform/eslint-config-ts`、`@provincial-platform/eslint-config-vue3`两个包的规则。
+> `@provincial-platform/eslint-config-vue3-ts`包含了
+> `@provincial-platform/eslint-config-js`、`@provincial-platform/eslint-config-ts`、
+> `@provincial-platform/eslint-config-vue3`两个包的规则。
 
 ## 使用
 
