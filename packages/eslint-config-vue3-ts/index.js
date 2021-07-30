@@ -4,12 +4,14 @@ module.exports = {
     '@provincial-platform/eslint-config-vue3'
   ],
   rules: {
-    '@typescript-eslint/naming-convention': ['error', {
-      selector: 'default',
-      format: ['camelCase'],
-      leadingUnderscore: 'allow',
-      trailingUnderscore: 'allow',
-    },
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'default',
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+        trailingUnderscore: 'allow',
+      },
       {
         selector: 'variable',
         format: ['camelCase', 'UPPER_CASE'],
@@ -27,8 +29,12 @@ module.exports = {
       // vue components key值可使用PascalCase风格
       {
         selector: 'objectLiteralProperty',
-        format: ['camelCase', 'PascalCase'],
-      }
+        format: ['camelCase', 'PascalCase', 'snake_case'],
+      },
+      {
+        selector: 'typeProperty',
+        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+      },
     ],
   }
 }
