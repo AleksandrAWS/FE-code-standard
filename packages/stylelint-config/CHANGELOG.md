@@ -1,6 +1,10 @@
 # 更新日志
 
 
+## 0.1.1
+`2021-08-09`
+- 修改`selector-list-comma-space-after`规则为`always-single-line`
+
 ## 0.1.0
 `2021-07-25`
 - 第一个版本
