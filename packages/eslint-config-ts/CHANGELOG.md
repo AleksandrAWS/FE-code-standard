@@ -1,5 +1,12 @@
 # 更新日志
 
+## 0.1.2
+`2021-08-09`
+- `@typescript-eslint/consistent-type-imports`规则的`disallowTypeAnnotations`参数改为`false`,
+  允许`typeof import('@/layouts/index.vue')`
+- 关闭`@typescript-eslint/prefer-enum-initializers`、`@typescript-eslint/no-unnecessary-condition`、
+  `@typescript-eslint/no-floating-promises`规则
+
 ## 0.1.1
 `2021-07-30`
 - 关闭`@typescript-eslint/prefer-readonly-parameter-types`、`@typescript-eslint/no-type-alias`、

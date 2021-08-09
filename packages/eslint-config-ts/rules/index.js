@@ -42,7 +42,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/consistent-type-imports': ['error', {
       prefer: 'type-imports',
-      disallowTypeAnnotations: true
+      disallowTypeAnnotations: false
     }],
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': 'error',
@@ -176,7 +176,7 @@ module.exports = {
       allowStaticOnly: false,
       allowWithDecorator: false,
     }],
-    '@typescript-eslint/no-floating-promises': 'error',
+    '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-implicit-any-catch': 'error',
     'no-implied-eval': 'off',
@@ -219,7 +219,7 @@ module.exports = {
     '@typescript-eslint/no-throw-literal': 'error',
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
-    '@typescript-eslint/no-unnecessary-condition': 'error',
+    '@typescript-eslint/no-unnecessary-condition': 'off',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
@@ -242,7 +242,7 @@ module.exports = {
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/prefer-as-const': 'error',
-    '@typescript-eslint/prefer-enum-initializers': 'error',
+    '@typescript-eslint/prefer-enum-initializers': 'off',
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-includes': 'error',
