@@ -42,7 +42,6 @@ test('style rules should pass validate',  () => {
   const lintRes = lintProject('style')
   expect(lintRes).toContain('array-bracket-newline')
   expect(lintRes).toContain('array-bracket-spacing')
-  expect(lintRes).toContain('array-element-newline')
 })
 
 test('es6 rules should pass validate',  () => {
