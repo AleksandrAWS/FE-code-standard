@@ -1,6 +1,11 @@
 # 更新日志
 
 
+## 0.2.1
+`2021-08-09`
+- `@provincial-platform/eslint-config-js`依赖升级至`0.1.4`
+- `@provincial-platform/eslint-config-ts`依赖升级至`0.1.2`
+
 ## 0.2.0
 `2021-07-30`
 - 新增`@provincial-platform/eslint-config-js`规则
