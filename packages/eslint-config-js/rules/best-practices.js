@@ -3,7 +3,7 @@ module.exports = {
     'accessor-pairs': 1,
     'array-callback-return': 2,
     'block-scoped-var': 2,
-    'complexity': [1, 5],
+    'complexity': [0, 10],
     'consistent-return': 1,
     'curly': 2,
     'default-case': 2,
@@ -34,7 +34,12 @@ module.exports = {
     'no-new': 1,
     'no-new-func': 2,
     'no-new-wrappers': 2,
-    'no-param-reassign': 2,
+    'no-param-reassign': [2, {
+      props: true,
+      ignorePropertyModificationsFor: [
+        "state", // vuex mutations params
+      ]
+    }],
     'no-proto': 2,
     'no-return-assign': 2,
     'no-return-await': 2,

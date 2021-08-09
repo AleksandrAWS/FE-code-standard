@@ -14,7 +14,10 @@ module.exports = {
     }],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],
-    'camelcase': 2,
+    'camelcase': [2, {
+      properties: 'never',
+      ignoreDestructuring: true
+    }],
     'comma-dangle': [2, {
       arrays: 'always-multiline',
       objects: 'always-multiline',
@@ -34,9 +37,7 @@ module.exports = {
     'func-name-matching': [2, 'always', {
       includeCommonJSModuleExports: true
     }],
-    'function-paren-newline': [2, {
-      minItems: 5
-    }],
+    'function-paren-newline': [2, 'consistent'],
     'id-length': [2, {
       min: 1,
       max: 30
@@ -112,7 +113,7 @@ module.exports = {
       skipBlankLines: true,
       skipComments: true
     }],
-    'max-lines-per-function': [1, {
+    'max-lines-per-function': [0, {
       max: 50,
       skipBlankLines: true,
       skipComments: true,

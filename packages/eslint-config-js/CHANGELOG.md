@@ -1,5 +1,13 @@
 # 更新日志
 
+# 0.1.4
+`2021-08-09`
+- 关闭`best-practices.js/complexity`、`max-lines-per-function`规则
+- `style.js/camelcase`：添加`properties`与`ignoreDestructuring`属性
+- `best-practices.js/no-param-reassign`：`no-param-reassign`属性设置`true`，
+  `ignorePropertyModificationsFor`添加`state`属性
+- `style.js/function-paren-newline`：改为`consistent`模式
+
 ## 0.1.3
 `2021-07-23`
 - `style.js/object-curly-newline`：`minProperties`由2改为3
