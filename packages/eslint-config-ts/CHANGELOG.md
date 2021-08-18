@@ -1,5 +1,9 @@
 # 更新日志
 
+## 0.1.3
+`2021-08-18`
+- `@typescript-eslint/naming-convention`规则允许变量使用`PascalCase`风格
+
 ## 0.1.2
 `2021-08-09`
 - `@typescript-eslint/consistent-type-imports`规则的`disallowTypeAnnotations`参数改为`false`,
