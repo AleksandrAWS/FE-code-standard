@@ -1,6 +1,6 @@
 {
   "name": "@provincial-platform/eslint-config-vue3-ts",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Provincial platform eslint config for vue3(typescript)",
   "main": "index.js",
   "homepage": "https://github.com/MAXLZ1/FE-code-standard/tree/main/packages/eslint-config-vue3-ts#readme",
