@@ -3,7 +3,7 @@
 ![eslint](https://img.shields.io/badge/eslint-v7.29.0-blue)
 ![@babel/core](https://img.shields.io/badge/%40babel%2Fcore-v7.14.8-blue)
 ![@babel/eslint-parser](https://img.shields.io/badge/%40babel%2Feslint--parser-v7.14.7-blue)
-![@provincial-platform/eslint-config-js](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--js-v0.1.4-blue)
+![@provincial-platform/eslint-config-js](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--js-v0.1.5-blue)
 ![@provincial-platform/eslint-config-vue3](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--vue3-v0.1.2-blue)
 
 
