@@ -1,8 +1,8 @@
 # @provincial-platform/eslint-config-vue3-ts
 
 ![eslint](https://img.shields.io/badge/eslint-v7.29.0-blue)
-![@provincial-platform/eslint-config-js](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--js-v0.1.4-blue)
-![@provincial-platform/eslint-config-ts](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--ts-v0.1.2-blue)
+![@provincial-platform/eslint-config-js](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--js-v0.1.5-blue)
+![@provincial-platform/eslint-config-ts](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--ts-v0.1.3-blue)
 ![@provincial-platform/eslint-config-vue3](https://img.shields.io/badge/%40provincial--platform%2Feslint--config--vue3-v0.1.2-blue)
 
 
