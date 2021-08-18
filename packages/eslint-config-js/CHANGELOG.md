@@ -1,6 +1,11 @@
 # 更新日志
 
-# 0.1.4
+## 0.1.5
+`2021-08-18`
+- `style.js/operator-linebreak`：移除`overrides`中的`=`限制
+- `style.js/lines-around-comment`：`allowObjectStart`参数设置为`true`
+
+## 0.1.4
 `2021-08-09`
 - 关闭`best-practices.js/complexity`、`max-lines-per-function`规则
 - `style.js/camelcase`：添加`properties`与`ignoreDestructuring`属性

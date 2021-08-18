@@ -86,7 +86,7 @@ module.exports = {
       beforeLineComment: true,
       allowBlockStart: true,
       allowBlockEnd: false,
-      allowObjectStart: false,
+      allowObjectStart: true,
       allowObjectEnd: false,
       allowArrayStart: false,
       allowArrayEnd: false,
@@ -213,9 +213,7 @@ module.exports = {
     'one-var-declaration-per-line': [2, 'always'],
     'operator-assignment': [2, 'always'],
     'operator-linebreak': [2, 'before', {
-      overrides: {
-        '=': 'none'
-      }
+      overrides: {}
     }],
     'padded-blocks': [2, {
       blocks: 'never',

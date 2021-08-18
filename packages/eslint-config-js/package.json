@@ -1,6 +1,6 @@
 {
   "name": "@provincial-platform/eslint-config-js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Provincial platform eslint config for javascript",
   "main": "index.js",
   "private": false,
