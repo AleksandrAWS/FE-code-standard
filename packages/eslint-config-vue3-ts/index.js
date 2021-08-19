@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     '@provincial-platform/eslint-config-js',
-    '@provincial-platform/eslint-config-ts',
-    '@provincial-platform/eslint-config-vue3'
+    '@provincial-platform/eslint-config-vue3',
+    '@provincial-platform/eslint-config-ts'
   ],
   rules: {
     '@typescript-eslint/naming-convention': [

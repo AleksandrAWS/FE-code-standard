@@ -1,6 +1,10 @@
 # 更新日志
 
 
+## 0.2.4
+`2021-08-19`
+- 调整`@provincial-platform/eslint-config-vue3`、`@provincial-platform/eslint-config-ts`两个包的顺序
+
 ## 0.2.3
 `2021-08-18`
 - `@typescript-eslint/naming-convention`规则允许变量使用`PascalCase`风格
