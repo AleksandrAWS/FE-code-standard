@@ -1,5 +1,10 @@
 # 更新日志
 
+## 0.2.0
+`2021-08-19`
+- 关闭所有需要类型信息的规则
+- `@typescript-eslint/eslint-plugin`、`@typescript-eslint/parser`升级至`4.29.2`
+
 ## 0.1.3
 `2021-08-18`
 - `@typescript-eslint/naming-convention`规则允许变量使用`PascalCase`风格

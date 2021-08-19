@@ -1,6 +1,6 @@
 {
   "name": "@provincial-platform/eslint-config-ts",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Provincial platform eslint config for typescript",
   "main": "index.js",
   "private": false,
@@ -22,8 +22,8 @@
     "test-coverage": "jest --coverage"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
     "eslint": "^7.29.0",
     "typescript": "^4.3.5"
   },
@@ -32,8 +32,8 @@
     "jest": "^27.0.6"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
     "typescript": "^4.3.5"
   }
 }

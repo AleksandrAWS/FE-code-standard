@@ -2,13 +2,12 @@
 module.exports = {
   parserOptions: {
     parser: '@typescript-eslint/parser',
-    project: 'tsconfig.json',
-    extraFileExtensions: ['.vue'],
   },
   plugins: ['@typescript-eslint'],
   extends: [
-    'plugin:@typescript-eslint/all',
-    './rules'
+    'plugin:@typescript-eslint/recommended',
+    './rules/index',
+    './rules/require-type'
   ],
   rules: {
   }
