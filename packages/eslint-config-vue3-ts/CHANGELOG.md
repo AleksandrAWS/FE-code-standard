@@ -1,5 +1,9 @@
 # 更新日志
 
+## 0.2.5
+`2021-08-19`
+- `@provincial-platform/eslint-config-ts`升级至`0.2.0`
+- 添加`vue-eslint-parser`、`@typescript-eslint/parser`
 
 ## 0.2.4
 `2021-08-19`
