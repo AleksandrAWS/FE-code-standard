@@ -38,6 +38,8 @@ module.exports = {
       props: true,
       ignorePropertyModificationsFor: [
         "state", // vuex mutations params
+        "e", // event object shorthand
+        "event" // event object
       ]
     }],
     'no-proto': 2,

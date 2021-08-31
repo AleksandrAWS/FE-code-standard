@@ -1,5 +1,10 @@
 # 更新日志
 
+
+## 0.1.6
+`2018-08-25`
+- `best-practices.js/no-param-reassign`：忽略参数添加`e`、`event`
+
 ## 0.1.5
 `2021-08-18`
 - `style.js/operator-linebreak`：移除`overrides`中的`=`限制
