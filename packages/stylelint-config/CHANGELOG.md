@@ -1,5 +1,8 @@
 # 更新日志
 
+## 0.1.3
+`2021-09-18`
+- `selector-pseudo-class-no-unknown`：`ignorePseudoClasses`参数添加`deep`，用来支持vue3`:deep()`
 
 ## 0.1.2
 `2021-08-18`
