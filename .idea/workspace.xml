@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5994e541-649e-429b-9c93-fb2d6ae22925" name="Default Changelist" comment="fix(eslint-config-js): array-element-newline最小项的数量由5改为3">
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/extension/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/extension/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/uncategorized/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/vue3-recommended/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures/vue3-strongly-recommended/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/index.spec.js" afterDir="false" />
+    <list default="true" id="5994e541-649e-429b-9c93-fb2d6ae22925" name="Default Changelist" comment="fix(eslint-config-ts): @provincial-platform/eslint-config-js依赖升级至0.1.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-js/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-js/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/best-practices.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/es6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/possible-errors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/strict.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/javascript/variables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/extension.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/extension.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/uncategorized.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/uncategorized.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/vue3-recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue3-recommended.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue/vue3-strongly-recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules/vue3-strongly-recommended.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-js/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-js/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-ts/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-ts/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-vue3-ts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-vue3-ts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +15,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue3 Component" />
-        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JiraServerManager">
     <selected>-1</selected>
@@ -61,29 +45,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/eslint-config-js/tests/fixtures/possible-errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/stylelint-config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/packages/eslint-config-ts/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/eslint-config-js/tests/fixtures/possible-errors" />
-      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3-js/tests/fixtures" />
-      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3-js" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/packages/stylelint-config" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3-ts" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-vue3/rules" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-ts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/eslint-config-ts/tests/fixtures/@typescript-eslint" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-ts/tests/fixtures" />
+      <recent name="$PROJECT_DIR$/packages/eslint-config-ts" />
       <recent name="$PROJECT_DIR$/packages/eslint-config-vue3-js/rules" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test (1)">
+  <component name="RunManager" selected="npm.test (2)">
     <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -94,18 +83,28 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="prepare" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="test (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/eslint-config-vue3-js/package.json" />
       <command value="run" />
       <scripts>
-        <script value="prepare" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/packages/eslint-config-vue3-js/package.json" />
+    <configuration name="test (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/eslint-config-ts/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (3)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/eslint-config-vue3/package.json" />
       <command value="run" />
       <scripts>
         <script value="test" />
@@ -126,10 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test (1)" />
+        <item itemvalue="npm.test (2)" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.test (3)" />
+        <item itemvalue="npm.test (1)" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.prepare" />
       </list>
     </recent_temporary>
   </component>
@@ -147,21 +147,29 @@
       <workItem from="1626275305188" duration="27000" />
       <workItem from="1626275335892" duration="26860000" />
       <workItem from="1626417719475" duration="5766000" />
-      <workItem from="1626426120790" duration="8939000" />
-    </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1626275593142</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1626275593142</updated>
-    </task>
-    <task id="LOCAL-00002" summary="chore: 添加husky+commitlint">
-      <created>1626311617417</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1626311617417</updated>
+      <workItem from="1626426120790" duration="63525000" />
+      <workItem from="1626788517605" duration="78755000" />
+      <workItem from="1627269937785" duration="2113000" />
+      <workItem from="1627284394879" duration="3329000" />
+      <workItem from="1627615792405" duration="7305000" />
+      <workItem from="1627730503882" duration="13510000" />
+      <workItem from="1628340500457" duration="1178000" />
+      <workItem from="1628470554674" duration="724000" />
+      <workItem from="1628472421131" duration="2336000" />
+      <workItem from="1628520024212" duration="2355000" />
+      <workItem from="1628604764013" duration="689000" />
+      <workItem from="1628651353568" duration="938000" />
+      <workItem from="1628668608899" duration="659000" />
+      <workItem from="1628942424518" duration="1252000" />
+      <workItem from="1628947960296" duration="1075000" />
+      <workItem from="1629270370260" duration="952000" />
+      <workItem from="1629271633703" duration="113000" />
+      <workItem from="1629339418551" duration="776000" />
+      <workItem from="1629354713893" duration="9235000" />
+      <workItem from="1629874218476" duration="464000" />
+      <workItem from="1630390551802" duration="2046000" />
+      <workItem from="1630484565265" duration="392000" />
+      <workItem from="1631925246801" duration="791000" />
     </task>
     <task id="LOCAL-00003" summary="docs: 添加README及CHANGELOG">
       <created>1626328053328</created>
@@ -191,7 +199,322 @@
       <option name="project" value="LOCAL" />
       <updated>1626451738458</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(eslint-config-vue3-js): eslint-config-vue3-js规则整理">
+      <created>1626452552358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626452552358</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(eslint-config-js): 添加'default-param-last'、'no-loss-of-precision'规则">
+      <created>1626920342561</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626920342561</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix(eslint-config-js): max-lines的max属性由300增加至600">
+      <created>1626920448610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626920448610</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: 添加eslint-config-vue3包">
+      <created>1626921297399</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626921297399</updated>
+    </task>
+    <task id="LOCAL-00011" summary="docs(eslint-config-js): 更新日志更新至0.1.1">
+      <created>1626921393292</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626921393292</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chore: commitlint配置的subject最大长度有40提升至60">
+      <created>1626940896227</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626940896227</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(eslint-config-js): 关闭no-magic-numbers规则">
+      <created>1626942174799</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626942174799</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix(eslint-config-js): 关闭array-element-newline，max-len的code增加至100">
+      <created>1626942541664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1626942541664</updated>
+    </task>
+    <task id="LOCAL-00015" summary="docs(eslint-config-js): 更新日志更新至0.1.2">
+      <created>1626942905631</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1626942905631</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix(eslint-config-js): 更新版本号">
+      <created>1626943348419</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1626943348419</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix(eslint-config-js): object-curly-newline的minProperties由2改为3">
+      <created>1626966846643</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626966846643</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix(eslint-config-vue3): 修改规则vue/max-len、vue/object-curly-newline&#10;&#10;1.修改vue/max-len最大长度为100&#10;2.修改vue/object-curly-newline的minProperties由2到3">
+      <created>1626967174090</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1626967174090</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat(eslint-config-vue3-js): 引用@provincial-platform/eslint-config-vue3的规则">
+      <created>1626967301775</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1626967301775</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: 添加eslint-config-ts包">
+      <created>1627003497251</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627003497251</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: 添加eslint-config-vue3-ts包">
+      <created>1627010275059</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1627010275059</updated>
+    </task>
+    <task id="LOCAL-00022" summary="docs(eslint-config-js): 更新日志更新">
+      <created>1627019438117</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1627019438117</updated>
+    </task>
+    <task id="LOCAL-00023" summary="chore(eslint-config-ts): typescript依赖改为4.3.5">
+      <created>1627020087858</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1627020087858</updated>
+    </task>
+    <task id="LOCAL-00024" summary="chore(eslint-config-vue3-js): @provincial-platform/eslint-config-js升级至0.1.3">
+      <created>1627020273515</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1627020273515</updated>
+    </task>
+    <task id="LOCAL-00025" summary="docs(eslint-config-vue3-js): 版本号更新">
+      <created>1627027426362</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1627027426362</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: 添加stylelint-config包">
+      <created>1627222975086</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1627222975086</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix(eslint-config-vue3-ts): 修改README.md">
+      <created>1627262878568</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1627262878568</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix(eslint-config-ts): 关闭部分规则&#10;&#10;1.关闭：@typescript-eslint/prefer-readonly-parameter-types、@typescript-eslint/no-type-alias、&#10;    @typescript-eslint/strict-boolean-expressions、@typescript-eslint/no-unused-expressions&#10;2.@typescript-eslint/explicit-member-accessibility：关闭构造器的修饰符检查">
+      <created>1627616003486</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1627616003486</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix(eslint-config-vue3-ts): object的key值允许snake_case风格">
+      <created>1627616682439</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1627616682439</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix(eslint-config-vue3-ts): 新增@provincial-platform/eslint-config-js">
+      <created>1627651373357</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1627651373357</updated>
+    </task>
+    <task id="LOCAL-00031" summary="chore: package.json添加主页">
+      <created>1627652822221</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1627652822221</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix(eslint-config-vue3-js): 关闭部分规则">
+      <created>1628472638475</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1628472638475</updated>
+    </task>
+    <task id="LOCAL-00033" summary="docs(eslint-config-vue3-js): 测试文件删除array-element-newline规则的测试">
+      <created>1628472775553</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1628472775553</updated>
+    </task>
+    <task id="LOCAL-00034" summary="chore(eslint-config-vue3-js): @provincial-platform/eslint-config-js依赖升级至0.1.4">
+      <created>1628473197340</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1628473197340</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix(eslint-config-ts): 关闭部分规则">
+      <created>1628473844638</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1628473844638</updated>
+    </task>
+    <task id="LOCAL-00036" summary="chore(eslint-config-vue3-ts): 依赖升级&#10;&#10;1.@provincial-platform/eslint-config-js升级至0.1.4&#10;2.@provincial-platform/eslint-config-ts升级至0.1.2">
+      <created>1628474285972</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1628474285972</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix(stylelint-config): 修改selector-list-comma-space-after规则为always-single-line">
+      <created>1628474434725</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1628474434725</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat(eslint-config-js): 升级至0.1.5">
+      <created>1629270818585</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1629270818585</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix(eslint-config-ts): 升级至0.1.3">
+      <created>1629270902209</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1629270902209</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix(stylelint-config): 升级至0.1.2">
+      <created>1629270972028</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1629270972028</updated>
+    </task>
+    <task id="LOCAL-00041" summary="chore(eslint-config-vue3-js): 升级依赖包">
+      <created>1629271285565</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1629271285565</updated>
+    </task>
+    <task id="LOCAL-00042" summary="chore(eslint-config-vue3-ts): 升级依赖包">
+      <created>1629271351190</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1629271351190</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix(eslint-config-vue3-ts): @typescript-eslint/naming-convention规则允许变量使用PascalCase风格">
+      <created>1629271742711</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1629271742711</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix(eslint-config-ts): 调整ts与vue3两个包的顺序">
+      <created>1629339659474</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1629339659474</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix(eslint-config-ts): 关闭所有需要类型信息的规则">
+      <created>1629362971700</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1629362971700</updated>
+    </task>
+    <task id="LOCAL-00046" summary="chore(eslint-config-vue3-ts): 升级依赖">
+      <created>1629363907183</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1629363907183</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix(eslint-config-js): best-practices.js/no-param-reassign忽略参数添加e、event">
+      <created>1630391360941</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1630391360941</updated>
+    </task>
+    <task id="LOCAL-00048" summary="chore(eslint-config-vue-js): @provincial-platform/eslint-config-js依赖升级至0.1.6">
+      <created>1630391520879</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1630391520879</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fix(eslint-config-vue3-ts): @provincial-platform/eslint-config-js依赖升级至0.1.6">
+      <created>1630391950637</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1630391950637</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix(stylelint-config): 添加对:deep()选择器的支持">
+      <created>1631925805249</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1631925805250</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix(eslint-config-ts): 变量允许snake_case，添加对象属性及类型属性的格式">
+      <created>1631925994529</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1631925994529</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,19 +540,68 @@
             </State>
           </value>
         </entry>
+        <entry key="dece8056-b9e7-41c8-aef5-dffeb287bdee">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/maxlz/webStormProject/FE-code-standard/packages/eslint-config-js" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="dece8056-b9e7-41c8-aef5-dffeb287bdee" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="添加husky+commitlint" />
-    <MESSAGE value="chore: 添加husky+commitlint" />
-    <MESSAGE value="docs: 添加README及CHANGELOG" />
-    <MESSAGE value="docs: 修改README及CHANGELOG" />
-    <MESSAGE value="fix(eslint-config-js): array-element-newline最小项的数量由5改为3" />
-    <MESSAGE value="fix(eslint-config-js): object-curly-newline最小项的数量由4改为2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(eslint-config-js): object-curly-newline最小项的数量由4改为2" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix(eslint-config-vue3-ts): 修改README.md" />
+    <MESSAGE value="fix(eslint-config-ts): 关闭部分规则&#10;&#10;1.关闭：@typescript-eslint/prefer-readonly-parameter-types、@typescript-eslint/no-type-alias、&#10;    @typescript-eslint/strict-boolean-expressions、@typescript-eslint/no-unused-expressions&#10;2.@typescript-eslint/explicit-member-accessibility：关闭构造器的修饰符检查" />
+    <MESSAGE value="fix(eslint-config-vue3-ts): object的key值允许snake_case风格" />
+    <MESSAGE value="fix(eslint-config-vue3-ts): 新增@provincial-platform/eslint-config-js" />
+    <MESSAGE value="chore: package.json添加主页" />
+    <MESSAGE value="fix(eslint-config-vue3-js): 关闭部分规则" />
+    <MESSAGE value="docs(eslint-config-vue3-js): 测试文件删除array-element-newline规则的测试" />
+    <MESSAGE value="chore(eslint-config-vue3-js): @provincial-platform/eslint-config-js依赖升级至0.1.4" />
+    <MESSAGE value="fix(eslint-config-ts): 关闭部分规则" />
+    <MESSAGE value="chore(eslint-config-vue3-ts): 依赖升级&#10;&#10;1.@provincial-platform/eslint-config-js升级至0.1.4&#10;2.@provincial-platform/eslint-config-ts升级至0.1.2" />
+    <MESSAGE value="fix(stylelint-config): 修改selector-list-comma-space-after规则为always-single-line" />
+    <MESSAGE value="feat(eslint-config-js): 升级至0.1.5" />
+    <MESSAGE value="fix(eslint-config-ts): 升级至0.1.3" />
+    <MESSAGE value="fix(stylelint-config): 升级至0.1.2" />
+    <MESSAGE value="chore(eslint-config-vue3-js): 升级依赖包" />
+    <MESSAGE value="chore(eslint-config-vue3-ts): 升级依赖包" />
+    <MESSAGE value="fix(eslint-config-vue3-ts): @typescript-eslint/naming-convention规则允许变量使用PascalCase风格" />
+    <MESSAGE value="fix(eslint-config-ts): 调整ts与vue3两个包的顺序" />
+    <MESSAGE value="fix(eslint-config-ts): 关闭所有需要类型信息的规则" />
+    <MESSAGE value="chore(eslint-config-vue3-ts): 升级依赖" />
+    <MESSAGE value="fix(eslint-config-js): best-practices.js/no-param-reassign忽略参数添加e、event" />
+    <MESSAGE value="chore(eslint-config-vue-js): @provincial-platform/eslint-config-js依赖升级至0.1.6" />
+    <MESSAGE value="fix(eslint-config-vue3-ts): @provincial-platform/eslint-config-js依赖升级至0.1.6" />
+    <MESSAGE value="fix(stylelint-config): 添加对:deep()选择器的支持" />
+    <MESSAGE value="fix(eslint-config-ts): 变量允许snake_case，添加对象属性及类型属性的格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(eslint-config-ts): 变量允许snake_case，添加对象属性及类型属性的格式" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

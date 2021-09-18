@@ -1,5 +1,10 @@
 # 更新日志
 
+## 0.2.7
+`2021-09-01`
+- 删除本包的`@typescript-eslint/naming-convention`规则
+- `@provincial-platform/eslint-config-ts`升级至`0.2.1`
+
 ## 0.2.5
 `2021-08-19`
 - `@provincial-platform/eslint-config-ts`升级至`0.2.0`
