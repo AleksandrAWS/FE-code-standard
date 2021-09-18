@@ -1,6 +1,7 @@
 module.exports = {
   rules: {
-    '@typescript-eslint/naming-convention': ['error',
+    '@typescript-eslint/naming-convention': [
+      'error',
       {
         selector: 'default',
         format: ['camelCase'],
@@ -9,7 +10,7 @@ module.exports = {
       },
       {
         selector: 'variable',
-        format: ['camelCase', 'UPPER_CASE', 'PascalCase', ],
+        format: ['camelCase', 'UPPER_CASE', 'PascalCase', "snake_case"],
         leadingUnderscore: 'allow',
         trailingUnderscore: 'allow',
       },
@@ -20,7 +21,16 @@ module.exports = {
       {
         selector: 'enumMember',
         format: ['UPPER_CASE'],
-      }
+      },
+      // vue components key值可使用PascalCase风格
+      {
+        selector: 'objectLiteralProperty',
+        format: ['camelCase', 'PascalCase', 'snake_case'],
+      },
+      {
+        selector: 'typeProperty',
+        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+      },
     ],
     '@typescript-eslint/array-type': ['error', {
       default: 'array',

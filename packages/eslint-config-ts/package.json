@@ -1,6 +1,6 @@
 {
   "name": "@provincial-platform/eslint-config-ts",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Provincial platform eslint config for typescript",
   "main": "index.js",
   "private": false,
