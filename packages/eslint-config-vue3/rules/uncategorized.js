@@ -79,6 +79,13 @@ module.exports = {
     'vue/v-for-delimiter-style': 0,
     'vue/v-on-event-hyphenation': [2, 'never'],
     'vue/v-on-function-call': [2, 'never'],
-    'vue/valid-next-tick': 2
+    'vue/valid-next-tick': 2,
+    'vue/no-useless-template-attributes': 2,
+    'vue/no-computed-properties-in-data': 2,
+    'vue/no-reserved-props': 2,
+    'vue/no-export-in-script-setup': 2,
+    'vue/valid-define-emits': 2,
+    'vue/valid-define-props': 2,
+    'vue/valid-v-memo': 2
   }
 }

@@ -1,7 +1,7 @@
 # @provincial-platform/eslint-config-vue3
 
 ![eslint](https://img.shields.io/badge/eslint-v7.29.0-blue)
-![eslint-plugin-vue](https://img.shields.io/badge/eslint--plugin--vue-v7.13.0-blue)
+![eslint-plugin-vue](https://img.shields.io/badge/eslint--plugin--vue-v8.0.3-blue)
 
 
 ## 使用

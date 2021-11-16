@@ -3,10 +3,6 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module'
   },
-  env: {
-    browser: true,
-    es6: true
-  },
   extends: [
     'plugin:vue/vue3-recommended',
     './vue3-strongly-recommended',
@@ -14,5 +10,10 @@ module.exports = {
     './uncategorized',
     './extension'
   ],
+  env: {
+    'vue/setup-compiler-macros': true,
+    browser: true,
+    es6: true
+  },
   rules: {}
 }

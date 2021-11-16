@@ -37,11 +37,9 @@ module.exports = {
     'vue/max-attributes-per-line': [2, {
       singleline: {
         max: 3,
-        allowFirstLine: true
       },
       multiline: {
         max: 1,
-        allowFirstLine: false
       }
     }],
     'vue/multiline-html-element-content-newline': [2, {
@@ -74,6 +72,11 @@ module.exports = {
     // Vue.js 3.x
     'vue/require-explicit-emits': [2, {
       allowProps: false
-    }]
+    }],
+    'vue/first-attribute-linebreak': [2, {
+      singleline: 'beside',
+      multiline: 'below'
+    }],
+    'vue/v-on-event-hyphenation': [2, 'always']
   }
 }
