@@ -1,6 +1,11 @@
 # 更新日志
 
 
+## 0.1.5
+`2021-11-19`
+- `@provincial-platform/eslint-config-js`依赖升级至`0.1.7`
+- `@provincial-platform/eslint-config-vue3`依赖升级至`0.2.2`
+
 ## 0.1.4
 `2021-08-31`
 - `@provincial-platform/eslint-config-js`依赖升级至`0.1.6`
