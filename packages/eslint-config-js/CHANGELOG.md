@@ -1,8 +1,12 @@
 # 更新日志
 
 
+## 0.1.7
+`2021-11-19`
+- `style.js/max-len`：`ignoreStrings`、`ignoreTemplateLiterals`, `ignoreRegExpLiterals`设置为`true`
+
 ## 0.1.6
-`2018-08-25`
+`2021-08-25`
 - `best-practices.js/no-param-reassign`：忽略参数添加`e`、`event`
 
 ## 0.1.5

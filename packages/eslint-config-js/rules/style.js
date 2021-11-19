@@ -104,9 +104,9 @@ module.exports = {
       ignoreComments: false,
       ignoreTrailingComments: false,
       ignoreUrls: true,
-      ignoreStrings: false,
-      ignoreTemplateLiterals: false,
-      ignoreRegExpLiterals: false
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreRegExpLiterals: true
     }],
     'max-lines': [1, {
       max: 600,
