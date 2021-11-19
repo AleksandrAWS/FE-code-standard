@@ -1,5 +1,15 @@
 # 更新日志
 
+
+## 0.2.10
+`2021-11-19`
+- `@provincial-platform/eslint-config-js`升级至`0.1.7`
+- `@provincial-platform/eslint-config-vue3`升级至`0.2.2`
+
+## 0.2.9
+`2021-11-16`
+- `@provincial-platform/eslint-config-vue3`升级至`0.2.1`
+
 ## 0.2.7
 `2021-09-01`
 - 删除本包的`@typescript-eslint/naming-convention`规则
